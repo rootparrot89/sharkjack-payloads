@@ -21,7 +21,7 @@
 #
 
 C2PROVISION="/etc/device.config"
-NMAP_OPTIONS="-sP -v --host-timeout 30s --max-retries 3"
+NMAP_OPTIONS=" -A -T5 -sS -sV -sP -v --host-timeout 30s --max-retries 3"
 LOOT_DIR=/root/loot/nmap
 
 # Setup loot directory, DHCP client, and determine subnet
